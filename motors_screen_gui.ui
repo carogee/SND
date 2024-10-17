@@ -530,7 +530,7 @@
   <widget class="QTableWidget" name="Table">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>40</x>
      <y>10</y>
      <width>271</width>
      <height>141</height>
@@ -713,7 +713,7 @@ background-color: rgb(170, 232, 255);</string>
     <rect>
      <x>220</x>
      <y>40</y>
-     <width>91</width>
+     <width>71</width>
      <height>21</height>
     </rect>
    </property>
@@ -759,7 +759,7 @@ color: rgb(0, 0, 0)
     <rect>
      <x>220</x>
      <y>70</y>
-     <width>91</width>
+     <width>81</width>
      <height>20</height>
     </rect>
    </property>
@@ -816,7 +816,7 @@ background-color: rgb(170, 232, 255);</string>
   <widget class="PyDMLineEdit" name="IntensityRatioPV">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>200</x>
      <y>100</y>
      <width>104</width>
      <height>19</height>
@@ -924,7 +924,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -22.820946166217933, &quot;maxRange&quot;: 25.445946166217933, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -21174.499067718985, &quot;maxRange&quot;: 7174.499067717442, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -937,7 +937,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="curves">
        <stringlist>
-        <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T4:TH2&quot;, &quot;name&quot;: &quot;Ch.15/Ch.12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+        <string>{&quot;y_channel&quot;: &quot;calc://x3_ratio?var=ca://XCS:SND:DIO:AMPL_15&amp;var_2=ca://XCS:SND:DIO:AMPL_12&amp;expr=var/(1.001+var_2)&amp;update=var,var_2&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T4:TH2&quot;, &quot;name&quot;: &quot;Ch.15/Ch.12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
        </stringlist>
       </property>
      </widget>
@@ -989,7 +989,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -54.86055719309865, &quot;maxRange&quot;: 62.48555719309865, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -33168.89936961202, &quot;maxRange&quot;: 37043.89936961245, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -1002,8 +1002,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="curves">
        <stringlist>
-        <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T2:TH&quot;, &quot;name&quot;: &quot;Ch.8/Ch.13&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
-        <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_13&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T2:TH&quot;, &quot;name&quot;: &quot;&quot;, &quot;color&quot;: &quot;red&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+        <string>{&quot;y_channel&quot;: &quot;calc://cc1_ratio?var=ca://XCS:SND:DIO:AMPL_8&amp;var_2=ca://XCS:SND:DIO:AMPL_13&amp;expr=var/(1.001+var_2)&amp;update=var,var_2&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T2:TH&quot;, &quot;name&quot;: &quot;Ch.8/Ch.13&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
        </stringlist>
       </property>
       <property name="autoRangeX">
@@ -1052,7 +1051,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -36778.965419924956, &quot;maxRange&quot;: 74278.96541992907, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -221054.7182620968, &quot;maxRange&quot;: 283554.7182621037, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -1071,7 +1070,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="curves">
        <stringlist>
-        <string>{&quot;y_channel&quot;: &quot;calc://x1_ratio?var=ca://XCS:SND:DIO:AMPL_12&amp;var_two=ca://XCS:SND:DIO:AMPL_11&amp;expr=var/(1.0001+var_two)&amp;update=var,var_two&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T1:TH1&quot;, &quot;name&quot;: &quot;Ch12/Ch11&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: &quot;None&quot;}</string>
+        <string>{&quot;y_channel&quot;: &quot;calc://x1_ratio?var=ca://XCS:SND:DIO:AMPL_12&amp;var_two=ca://XCS:SND:DIO:AMPL_11&amp;expr=var/(1.001+var_two)&amp;update=var,var_two&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T1:TH1&quot;, &quot;name&quot;: &quot;Ch12/Ch11&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: &quot;None&quot;}</string>
        </stringlist>
       </property>
      </widget>
@@ -1120,7 +1119,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -752.4079229780242, &quot;maxRange&quot;: 789.0329229780242, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -517800.00000005704, &quot;maxRange&quot;: 271800.0000000299, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -1133,7 +1132,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="curves">
        <stringlist>
-        <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_14&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T4:TH1&quot;, &quot;name&quot;: &quot;Ch.14/Ch.9&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+        <string>{&quot;y_channel&quot;: &quot;calc://x4_ratio?var=ca://XCS:SND:DIO:AMPL_14&amp;var_2=ca://XCS:SND:DIO:AMPL_9&amp;expr=var/(1.001+var_2)&amp;update=var,var_2&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T4:TH1&quot;, &quot;name&quot;: &quot;Ch.14/Ch.9&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
        </stringlist>
       </property>
      </widget>
@@ -1179,7 +1178,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -54.86055719309865, &quot;maxRange&quot;: 62.48555719309865, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -4229.353118030072, &quot;maxRange&quot;: 2979.3531180299337, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -1192,7 +1191,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="curves">
        <stringlist>
-        <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T3:TH&quot;, &quot;name&quot;: &quot;Ch.9/Ch.8&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+        <string>{&quot;y_channel&quot;: &quot;calc://cc2_ratio?var=ca://XCS:SND:DIO:AMPL_9&amp;var_2=XCS:SND:DIO:AMPL_8&amp;expr=var/(1.001+var_2)&amp;update=var,var_2&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:T3:TH&quot;, &quot;name&quot;: &quot;Ch.9/Ch.8&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 8, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
        </stringlist>
       </property>
      </widget>
@@ -1238,7 +1237,7 @@ background-color: rgb(170, 232, 255);</string>
       </property>
       <property name="yAxes">
        <stringlist>
-        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -36778.965419924956, &quot;maxRange&quot;: 74278.96541992907, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+        <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;&quot;, &quot;minRange&quot;: -206410.3264495733, &quot;maxRange&quot;: 55160.326449556625, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
        </stringlist>
       </property>
       <property name="title" stdset="0">
@@ -1587,7 +1586,7 @@ border-top-color: rgb(15, 15, 15);</string>
   <widget class="PyDMLineEdit" name="DelayEnergyPV">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>220</x>
      <y>130</y>
      <width>81</width>
      <height>21</height>
