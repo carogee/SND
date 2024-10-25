@@ -83,7 +83,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;CH 09 &amp; 15&quot;, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;CH 09 &amp; 15&quot;, &quot;minRange&quot;: -62.525, &quot;maxRange&quot;: 65.275, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -96,8 +96,8 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;x_channel&quot;: &quot;ca://SIOC:SYS0:ML00:AO627&quot;, &quot;name&quot;: &quot;CH09 &quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://SIOC:SYS0:ML00:AO627&quot;, &quot;name&quot;: &quot;CH15 &quot;, &quot;color&quot;: &quot;red&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;x_channel&quot;: &quot;ca://SIOC:SYS0:ML00:AO627&quot;, &quot;name&quot;: &quot;CH09 &quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://SIOC:SYS0:ML00:AO627&quot;, &quot;name&quot;: &quot;CH15 &quot;, &quot;color&quot;: &quot;red&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -136,7 +136,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -87.3404997539811, &quot;maxRange&quot;: 84.4654997539811, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -146,7 +146,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_11&quot;, &quot;name&quot;: &quot;CH12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_11&quot;, &quot;name&quot;: &quot;CH12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 3, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -246,7 +246,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -58.3375, &quot;maxRange&quot;: 55.2125, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -256,7 +256,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;name&quot;: &quot;DELAY (CH15)&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;name&quot;: &quot;DELAY (CH15)&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -353,7 +353,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -79.725, &quot;maxRange&quot;: 84.975, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -366,7 +366,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_11&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SB1:BMMON:SUM&quot;, &quot;name&quot;: &quot;CH11&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_11&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SB1:BMMON:SUM&quot;, &quot;name&quot;: &quot;CH11&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -458,7 +458,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;CH08&quot;, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: &quot;CH08&quot;, &quot;minRange&quot;: -131.5125, &quot;maxRange&quot;: 162.6375, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="title" stdset="0">
@@ -474,7 +474,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SB1:BMMON:SUM&quot;, &quot;name&quot;: &quot;CH08&quot;, &quot;color&quot;: &quot;#fdfeff&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SB1:BMMON:SUM&quot;, &quot;name&quot;: &quot;CH08&quot;, &quot;color&quot;: &quot;#fdfeff&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -505,7 +505,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -58.3375, &quot;maxRange&quot;: 55.2125, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -515,7 +515,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;name&quot;: &quot;CH15&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_15&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;name&quot;: &quot;CH15&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 3, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
@@ -577,7 +577,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -91.64448574774153, &quot;maxRange&quot;: 82.39448574774153, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -587,7 +587,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;name&quot;: &quot;CH12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_12&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;name&quot;: &quot;CH12&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
      <property name="TextColor" stdset="0">
@@ -656,7 +656,7 @@
      </property>
      <property name="yAxes">
       <stringlist>
-       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -1.0, &quot;maxRange&quot;: 1.0, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
+       <string>{&quot;name&quot;: &quot;Axis 1&quot;, &quot;orientation&quot;: &quot;left&quot;, &quot;label&quot;: null, &quot;minRange&quot;: -37.3875, &quot;maxRange&quot;: 33.2625, &quot;autoRange&quot;: true, &quot;logMode&quot;: false}</string>
       </stringlist>
      </property>
      <property name="xLabels">
@@ -669,7 +669,7 @@
      </property>
      <property name="curves">
       <stringlist>
-       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;name&quot;: &quot;CH09&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 10, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
+       <string>{&quot;y_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_9&quot;, &quot;x_channel&quot;: &quot;ca://XCS:SND:DIO:AMPL_8&quot;, &quot;name&quot;: &quot;CH09&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 0, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: &quot;o&quot;, &quot;symbolSize&quot;: 3, &quot;yAxisName&quot;: &quot;Axis 1&quot;, &quot;barWidth&quot;: null, &quot;upperThreshold&quot;: null, &quot;lowerThreshold&quot;: null, &quot;thresholdColor&quot;: &quot;white&quot;, &quot;redraw_mode&quot;: 2, &quot;buffer_size&quot;: 1200, &quot;bufferSizeChannelAddress&quot;: null}</string>
       </stringlist>
      </property>
     </widget>
