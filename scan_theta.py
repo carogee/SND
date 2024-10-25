@@ -26,8 +26,8 @@ from pydm.widgets import PyDMRelatedDisplayButton, PyDMPushButton
 
 d12=EpicsSignalRO("XCS:SND:DIO:AMPL_12",name="diode 12") #define PV
 d15=EpicsSignalRO("XCS:SND:DIO:AMPL_15",name="diode 15")
-d08=EpicsSignalRO("XCS:SND:DIO:AMPL_08",name="diode 8")
-d09=EpicsSignalRO("XCS:SND:DIO:AMPL_09",name="diode 9")
+d8=EpicsSignalRO("XCS:SND:DIO:AMPL_8",name="diode 8")
+d9=EpicsSignalRO("XCS:SND:DIO:AMPL_9",name="diode 9")
 d11=EpicsSignalRO("XCS:SND:DIO:AMPL_11",name="diode 11")
 d10=EpicsSignalRO("XCS:SND:DIO:AMPL_10",name="diode 10")
 d15=EpicsSignalRO("XCS:SND:DIO:AMPL_15",name="diode 15")
@@ -154,7 +154,7 @@ class AngleCC1Align(PyDMPushButton):
 		end_angle = float(self.stopLineEdit.text())
 		steps = float(self.stepLineEdit.text())
 
-		yield from scan([d08],t2th,start_angle,end_angle,steps)
+		yield from scan([d8],t2th,start_angle,end_angle,steps)
 	def start_scan(self):
 		RE(self.anglecc1())
 		print("scanning motor cc1...")
@@ -175,7 +175,7 @@ class AngleCC2Align(PyDMPushButton):
 		end_angle = float(self.stopLineEdit.text())
 		steps = float(self.stepLineEdit.text())
 
-		yield from scan([d09],t3th,start_angle,end_angle,steps)		
+		yield from scan([d9],t3th,start_angle,end_angle,steps)		
 		
 	def start_scan(self):
 		RE(self.anglecc2())

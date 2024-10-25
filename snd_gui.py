@@ -100,8 +100,7 @@ class MotorControls(QtWidgets.QWidget):
 	def scan_opencc2(self):
 		self.angle_cc2_scan=AngleCC2Align(self)
 		self.startButton=AngleCC2Align(self)
-		self.angle_cc2_scan.setWindowFlags(QtCore.Qt.Window)
-		
+		self.angle_cc2_scan.setWindowFlags(QtCore.Qt.Window)		
 		self.angle_cc2_scan.show()
 		self.angle_cc2_scan.start_scan()
 
