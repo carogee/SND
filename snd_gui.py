@@ -33,7 +33,7 @@ class MotorControls(QtWidgets.QWidget):
 	def __init__(self, parent=None):
 		super(MotorControls, self).__init__(parent)
 
-		uic.loadUi('motors_screen.ui', self)
+		uic.loadUi('/cds/home/c/cagee/SND/motors_screen.ui', self)
 	#attempt to apply ratio to y axis of scatterplot
 	
 	#	self.scatterplot=self.ui.findChild(PyDMScatterplot, "X1Plot")
@@ -105,7 +105,7 @@ class MotorControls(QtWidgets.QWidget):
 		self.angle_cc2_scan.start_scan()
 
 	def ui_filename(self):
-		return 'motors_screen.ui'
+		return '/cds/home/c/cagee/SND/motors_screen.ui'
 
 	def ui_filepath(self):
 		return path.join(path.dirname(path.realpath(__file__)), self.ui_filename())
